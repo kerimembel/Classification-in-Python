@@ -13,12 +13,14 @@ The algorithms to be tried are listed below.
  - Neural network     
  - Random forest
 
-To run these algorithms in Python environment, a machine learning library named scikit-learn has been used.
+To run these algorithms in Python environment, a machine learning library named **scikit-learn** has been used.
+
+To test the algorithms, the data set is divided into 90% train and 10% test rate. In addition, by applying n-cross validation, algorithms are tested with mixed data from the same data set and it is checked whether the algorithm is overfit. These test functions are also included in the project from the scikit-learn library.
 ## Usage
 These code files were run in Python 3.6.5 64-bit environment.
 In order to run these files completely and correctly, the libraries specified in the "requirements.txt" file must be installed. 
 
-To do this, "pip install -r .\requirements.txt" command should be run in the directory where the files are located.
+To do this, `pip install -r .\requirements.txt` command should be run in the directory where the files are located.
 
 The file "classification.py" must be run to execute the classification algorithms.
 
